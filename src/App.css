@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #000;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.4rem;
+  border: 2px solid #888;
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background: #005fcc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 3px solid #ff9900;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.error {
+  font-size: 0.9rem;
+  color: #b00020;
+}
